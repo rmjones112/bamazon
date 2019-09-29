@@ -1,0 +1,25 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "create_items": "node populate_customers.js",
+    "backup": "git add . && git commit -m 'this was automated' && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmjones112/bamazon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmjones112/bamazon/issues"
+  },
+  "homepage": "https://github.com/rmjones112/bamazon#readme",
+  "dependencies": {
+    "mysql": "^2.17.1"
+  }
+}
